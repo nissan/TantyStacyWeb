@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "TantyStacyWeb"
+  },
+  "hostingPlanName": {
+    "value": "ServicePlanEastUS"
+  },
+  "siteLocation": {
+    "value": "East US"
+  },
+  "sku": {
+    "value": "Standard"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "tantystacy2016"
+  },
+  "serverLocation": {
+    "value": "East US"
+  },
+  "administratorLogin": {
+    "value": "tantystacyadmin"
+  },
+  "administratorLoginPassword": {
+    "value": "tantystacyp@ssw0rd"
+  },
+  "databaseName": {
+    "value": "TantyStacyWeb_db"
+  }
+}

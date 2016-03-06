@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TantyStacyWeb", "TantyStacyWeb\TantyStacyWeb.csproj", "{ED997150-596B-40D6-AE20-CEE998E73A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{BAFF97F2-8654-42C0-AB8D-6DC54BA0EE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8DE2C02C-DD22-4FF7-8D0B-5898EEE0C47B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{097C9E88-A085-42BC-932F-764CC2A9BCED}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\TantyStacyWeb.json = PublishScripts\Templates\TantyStacyWeb.json
+		PublishScripts\Templates\TantyStacyWeb.param.dev.json = PublishScripts\Templates\TantyStacyWeb.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED997150-596B-40D6-AE20-CEE998E73A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED997150-596B-40D6-AE20-CEE998E73A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED997150-596B-40D6-AE20-CEE998E73A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED997150-596B-40D6-AE20-CEE998E73A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DE2C02C-DD22-4FF7-8D0B-5898EEE0C47B} = {BAFF97F2-8654-42C0-AB8D-6DC54BA0EE3D}
+		{097C9E88-A085-42BC-932F-764CC2A9BCED} = {BAFF97F2-8654-42C0-AB8D-6DC54BA0EE3D}
+	EndGlobalSection
+EndGlobal
